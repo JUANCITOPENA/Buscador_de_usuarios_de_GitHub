@@ -5,6 +5,16 @@ Buscador de usuarios de GitHub que permite buscar usuarios y ver su información
 
 ## URL DEL PROYECTO: https://juancitopena.github.io/Buscador_de_usuarios_de_GitHub/
 
+## Nota:
+
+El límite de solicitudes a la API de GitHub varía según el tipo de autenticación utilizado y si la solicitud es autenticada o no.
+
+Para solicitudes autenticadas, el límite es más alto, y depende del nivel de tu cuenta de GitHub. Por ejemplo, para los usuarios de nivel gratuito, el límite es de 60 solicitudes por hora para solicitudes sin autenticar y 5,000 solicitudes por hora para solicitudes autenticadas.
+
+Para solicitudes no autenticadas, el límite es de 10 solicitudes por minuto por dirección IP.
+
+Es importante tener en cuenta que estos límites pueden cambiar y que GitHub se reserva el derecho de cambiar los límites de la API en cualquier momento. Por lo tanto, es recomendable leer la documentación oficial de la API de GitHub para obtener la información más actualizada.
+
 ## Captura de Pantalla 1
 ![](imagen2.png)
 
